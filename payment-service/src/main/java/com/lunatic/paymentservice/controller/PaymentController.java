@@ -25,8 +25,8 @@ import java.util.Map;
 @RequestMapping("/api/")
 public class PaymentController {
 
-    private static final String RAZORPAY_KEY = "FILL_YOUR_KEY_HERE";
-    private static final String RAZORPAY_SECRET = "FILLL_YOUR_SECRET_HERE";
+    private static final String RAZORPAY_KEY = "rzp_test_iY9e90UymIOi52";
+    private static final String RAZORPAY_SECRET = "8pRfLj1jhlMmP4KbP8cjwmN6";
 
 
     @Autowired
