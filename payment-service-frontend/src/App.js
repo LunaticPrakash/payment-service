@@ -43,7 +43,7 @@ function App() {
 
   const getOptionsObject = (order) => {
     const options = {
-      key: process.env.RAZORPAY_KEY,
+      key: "rzp_test_iY9e90UymIOi52",
       amount: order.data.amount,
       currency: order.data.currency,
       name: "Prakash Gupta",
